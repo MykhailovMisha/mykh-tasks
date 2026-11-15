@@ -5,45 +5,248 @@
   "evening": "21:30",
   "week_of": "2026-11-16",
   "categories": {
-    "traffic":  "🚀 Трафик",
+    "traffic": "🚀 Трафик",
     "audience": "💬 Аудитория",
-    "funnel":   "🔻 Воронка",
-    "project":  "🛠 Проект"
+    "funnel": "🔻 Воронка",
+    "project": "🛠 Проект"
   },
   "daily": [
-    {"cat": "traffic", "title": "Рилс «Ежедневные мемкоин-новости» / «Пост → монета»", "count": 2, "where": "Акк 2 — RU ссылка", "chat": "Рилсы · сценарии", "material": "reel_ru", "est_min": 15, "priority": 1},
-    {"cat": "traffic", "title": "EN-рилс с ИИ-голосом", "count": 2, "where": "Акк 3 — EN AI", "chat": "ИИ-крео", "material": "reel_en", "est_min": 10, "priority": 1},
-    {"cat": "traffic", "title": "Продублировать все рилсы дня", "count": 1, "where": "YouTube Shorts", "est_min": 10, "priority": 2},
-    {"cat": "traffic", "title": "3 поста + 10 реплаев под крупными (бонус)", "count": 1, "where": "X @mykhtrades", "chat": "Твиттер", "est_min": 30, "priority": 3},
-    {"cat": "audience", "title": "Утренний пост в канал", "count": 1, "where": "Telegram", "cmd": "/morning", "est_min": 5, "priority": 1},
-    {"cat": "audience", "title": "Результаты мемкоинов за день", "count": 1, "where": "Telegram", "cmd": "/results day", "est_min": 5, "priority": 2},
-    {"cat": "audience", "title": "Ответить на комменты и директ в первый час после выхода роликов", "count": 1, "where": "все аккаунты", "est_min": 20, "priority": 1}
+    {
+      "cat": "traffic",
+      "title": "Рилс «Ежедневные мемкоин-новости» / «Пост → монета»",
+      "count": 2,
+      "where": "Акк 2 — RU ссылка",
+      "chat": "Рилсы · сценарии",
+      "material": "reel_ru",
+      "est_min": 15,
+      "priority": 1
+    },
+    {
+      "cat": "traffic",
+      "title": "EN-рилс с ИИ-голосом",
+      "count": 2,
+      "where": "Акк 3 — EN AI",
+      "chat": "ИИ-крео",
+      "material": "reel_en",
+      "est_min": 10,
+      "priority": 1
+    },
+    {
+      "cat": "traffic",
+      "title": "Продублировать все рилсы дня",
+      "count": 1,
+      "where": "YouTube Shorts",
+      "est_min": 10,
+      "priority": 2
+    },
+    {
+      "cat": "traffic",
+      "title": "3 поста + 10 реплаев под крупными (бонус)",
+      "count": 1,
+      "where": "X @mykhtrades",
+      "chat": "Твиттер",
+      "est_min": 30,
+      "priority": 3
+    },
+    {
+      "cat": "audience",
+      "title": "Утренний пост в канал",
+      "count": 1,
+      "where": "Telegram",
+      "cmd": "/morning",
+      "est_min": 5,
+      "priority": 1
+    },
+    {
+      "cat": "audience",
+      "title": "Результаты мемкоинов за день",
+      "count": 1,
+      "where": "Telegram",
+      "cmd": "/results day",
+      "est_min": 5,
+      "priority": 2
+    },
+    {
+      "cat": "audience",
+      "title": "Ответить на комменты и директ в первый час после выхода роликов",
+      "count": 1,
+      "where": "все аккаунты",
+      "est_min": 20,
+      "priority": 1
+    }
   ],
   "weekdays": {
     "mon": [
-      {"cat": "audience", "title": "Опрос «На чём сливал: фьючи / мемы / сигналы / не торговал»", "where": "Telegram", "est_min": 5, "priority": 2},
-      {"cat": "traffic", "title": "YouTube: сценарий длинного видео «Как торговать мемкоины в 2026 — пошагово»", "where": "YouTube", "chat": "YouTube · скрипты", "est_min": 40, "priority": 2}
+      {
+        "cat": "audience",
+        "title": "Опрос «На чём сливал: фьючи / мемы / сигналы / не торговал»",
+        "where": "Telegram",
+        "est_min": 5,
+        "priority": 2
+      },
+      {
+        "cat": "traffic",
+        "title": "YouTube: сценарий длинного видео «Как торговать мемкоины в 2026 — пошагово»",
+        "where": "YouTube",
+        "chat": "YouTube · скрипты",
+        "est_min": 40,
+        "priority": 2
+      }
     ],
     "tue": [
-      {"cat": "audience", "title": "Пост «Что софт отсеял вчера»", "where": "Telegram", "cmd": "/results day", "est_min": 10, "priority": 2}
+      {
+        "cat": "audience",
+        "title": "Пост «Что софт отсеял вчера»",
+        "where": "Telegram",
+        "cmd": "/results day",
+        "est_min": 10,
+        "priority": 2
+      }
     ],
     "wed": [
-      {"cat": "audience", "title": "Пост «Кидайте тикер — проверю», вечером ответить на тикеры", "where": "Telegram", "est_min": 20, "priority": 2},
-      {"cat": "traffic", "title": "YouTube: запись экрана + голос", "where": "YouTube", "chat": "YouTube · монтаж", "est_min": 60, "priority": 2}
+      {
+        "cat": "audience",
+        "title": "Пост «Кидайте тикер — проверю», вечером ответить на тикеры",
+        "where": "Telegram",
+        "est_min": 20,
+        "priority": 2
+      },
+      {
+        "cat": "traffic",
+        "title": "YouTube: запись экрана + голос",
+        "where": "YouTube",
+        "chat": "YouTube · монтаж",
+        "est_min": 60,
+        "priority": 2
+      }
     ],
     "thu": [
-      {"cat": "audience", "title": "Ответ на частый вопрос из комментов", "where": "Telegram", "est_min": 10, "priority": 2}
+      {
+        "cat": "audience",
+        "title": "Ответ на частый вопрос из комментов",
+        "where": "Telegram",
+        "est_min": 10,
+        "priority": 2
+      }
     ],
     "fri": [
-      {"cat": "audience", "title": "Результаты недели", "where": "Telegram", "cmd": "/results week", "est_min": 10, "priority": 1},
-      {"cat": "traffic", "title": "YouTube: выложить длинное видео + нарезать 2 рилса из него", "where": "YouTube", "est_min": 30, "priority": 1}
+      {
+        "cat": "audience",
+        "title": "Результаты недели",
+        "where": "Telegram",
+        "cmd": "/results week",
+        "est_min": 10,
+        "priority": 1
+      },
+      {
+        "cat": "traffic",
+        "title": "YouTube: выложить длинное видео + нарезать 2 рилса из него",
+        "where": "YouTube",
+        "est_min": 30,
+        "priority": 1
+      }
     ],
     "sat": [
-      {"cat": "audience", "title": "Гайд «Как проверить монету за 30 секунд»", "where": "Telegram", "est_min": 15, "priority": 2}
+      {
+        "cat": "audience",
+        "title": "Гайд «Как проверить монету за 30 секунд»",
+        "where": "Telegram",
+        "est_min": 15,
+        "priority": 2
+      }
     ],
     "sun": [
-      {"cat": "audience", "title": "Вопрос-ответ + обновить закреп", "where": "Telegram", "est_min": 15, "priority": 2},
-      {"cat": "project", "title": "Разобрать отчёт недели в «Штабе» и обновить план", "where": "Claude · Штаб", "chat": "Штаб", "est_min": 15, "priority": 1}
+      {
+        "cat": "audience",
+        "title": "Вопрос-ответ + обновить закреп",
+        "where": "Telegram",
+        "est_min": 15,
+        "priority": 2
+      },
+      {
+        "cat": "project",
+        "title": "Разобрать отчёт недели в «Штабе» и обновить план",
+        "where": "Claude · Штаб",
+        "chat": "Штаб",
+        "est_min": 15,
+        "priority": 1
+      }
     ]
-  }
+  },
+  "extra": [
+    {
+      "cat": "traffic",
+      "title": "🤖 ИИ-рилс (мульт / ИИ-крео)",
+      "where": "Акк 2 — RU ссылка",
+      "chat": "ИИ-крео",
+      "material": "reel_ru",
+      "est_min": 25,
+      "priority": 1
+    },
+    {
+      "cat": "traffic",
+      "title": "🤖 EN-рилс с ИИ-голосом",
+      "where": "Акк 3 — EN AI",
+      "chat": "ИИ-крео",
+      "material": "reel_en",
+      "est_min": 15,
+      "priority": 1
+    },
+    {
+      "cat": "traffic",
+      "title": "🎙 Рилс голосом «Ежедневные новости»",
+      "where": "Акк 2 — RU ссылка",
+      "chat": "Рилсы · сценарии",
+      "material": "reel_ru",
+      "est_min": 15,
+      "priority": 1
+    },
+    {
+      "cat": "traffic",
+      "title": "🎙 Рилс голосом «Было видно заранее»",
+      "where": "Акк 2 — RU ссылка",
+      "chat": "Рилсы · сценарии",
+      "material": "reel_ru",
+      "est_min": 15,
+      "priority": 2
+    },
+    {
+      "cat": "traffic",
+      "title": "📤 Продублировать рилсы в YouTube Shorts",
+      "where": "YouTube Shorts",
+      "est_min": 10,
+      "priority": 2
+    },
+    {
+      "cat": "traffic",
+      "title": "🐦 5 реплаев под крупными аккаунтами",
+      "where": "X @mykhtrades",
+      "chat": "Твиттер",
+      "est_min": 15,
+      "priority": 3
+    },
+    {
+      "cat": "audience",
+      "title": "📣 Пост «Инфоповоды» в канал",
+      "where": "Telegram",
+      "cmd": "/news",
+      "est_min": 5,
+      "priority": 2
+    },
+    {
+      "cat": "audience",
+      "title": "💬 Ответить на комменты и директ",
+      "where": "все аккаунты",
+      "est_min": 15,
+      "priority": 2
+    },
+    {
+      "cat": "project",
+      "title": "💡 Разобрать «Идеи — входящие» в темы роликов",
+      "where": "Obsidian",
+      "chat": "Рилсы · сценарии",
+      "est_min": 15,
+      "priority": 3
+    }
+  ]
 }
