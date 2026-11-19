@@ -70,5 +70,16 @@
     "chat": "Штаб",
     "note": "экран телефона, 2–3 минуты, без сид-фразы в кадре",
     "est_min": 30
+  },
+  {
+    "id": "2026-11-19-04",
+    "date": "2026-11-20",
+    "cat": "traffic",
+    "priority": 2,
+    "title": "📸 Скрины для гайдов 2–5: Phantom, pump.fun (покупка), DexScreener, Bubblemaps, RugCheck, Twitter-пост монеты",
+    "where": "Гайды memeguide2–5",
+    "chat": "Штаб",
+    "note": "кинуть в Штаб — подпишу стрелками и вставлю в статьи",
+    "est_min": 20
   }
 ]
